@@ -10,7 +10,8 @@ app.register_blueprint(jk)
 
 @app.route('/')
 def home():
-    b = 2 + 2
+    c = 2 + 2
+    #teste de conflito
     return render_template('index.html')
 
 
